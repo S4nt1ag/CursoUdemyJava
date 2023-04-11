@@ -9,10 +9,12 @@ public class ValidadorDeSenha {
 		Scanner sc = new Scanner(System.in);
 
 		final int senhaF = 2002;
+		System.out.print("Digite a senha: ");
 		int senha = sc.nextInt();
 
 		while (senha != senhaF) {
 			System.out.println("Senha Invalida");
+			System.out.print("Digite a senha: ");
 			senha = sc.nextInt();
 
 		}
